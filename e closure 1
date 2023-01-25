@@ -60,7 +60,7 @@ find_e_closure(i);
 }
 for(i=0;i<num_states;i++)
 {
-printf("e-closure(%d)= {",i);
+printf("e-closure(%d)= {",i); 
 for(j=0;j<num_states;j++)
 {
 if(e_closure[i][j]!=-1)
